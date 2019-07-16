@@ -1,0 +1,13 @@
+@tailwind base;
+
+.card {
+  @apply max-w-sm rounded overflow-hidden shadow mt-4
+  }
+
+.card:hover {
+  @apply shadow-lg
+  }
+
+@tailwind components;
+
+@tailwind utilities;
